@@ -1,0 +1,276 @@
+#pagina div.pessoal div.item
+{
+	width: 350px;
+	height: 85px;
+	border: 3px solid #AF1612;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	float: left;
+	margin: 0 0 10px 0;
+	background: #FFF;
+}
+
+#pagina div.pessoal div.item
+{
+	width: 340px;
+	height: 110px;
+	border: 3px solid #AF1612;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	float: left;
+	margin: 10px 0 0 10px;
+	
+}
+#pagina div.pessoal div.item div.profile_img a
+{
+  display: block;
+  width: 85px;
+  height: 110px;
+  background: url("../images/profile.png") center -10px no-repeat;
+  float: left;
+}
+
+#pagina div.pessoal div.item h5.nome_full
+{
+	height: 16px;
+	width: 220px;
+	overflow: hidden;
+	margin: 7px 0 0 0;
+	font: normal 14px "Droid Serif", Georgia;
+	display: block;
+  padding-left: 10px;
+}
+
+#pagina div.pessoal div.item .divisao
+{
+	height: 16px;
+	width: 220px;
+	overflow: hidden;
+	margin: 3px 0 0 0;
+	font: normal 14px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	color: #AD1412;
+	display: block;
+  padding-left: 10px;
+}
+
+#pagina div.pessoal div.item .ocupacao
+{
+	height: 16px;
+	width: 220px;
+	overflow: hidden;
+	margin: 3px 0 0 0;
+	font: normal 14px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	color: #AD1412;
+	display: block;
+  padding-left: 10px;
+}
+
+#pagina div.pessoal div.item .telefone
+{
+	height: 15px;
+	width: 220px;
+	overflow: hidden;
+	margin: 5px 0 0 0;
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	color: #333333;
+	display: block;
+  padding-left: 10px;
+}
+
+#pagina div.pessoal div.item .email
+{
+	height: 15px;
+	width: 220px;
+	overflow: hidden;
+	margin: 3px 0 0 0;
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	color: #333333;
+	display: block;
+  padding-left: 10px;
+}
+
+#pagina div.pessoalgeral div.item
+{
+	width: 450px;
+	height: 110px;
+	border: 3px solid #AF1612;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+#pagina div.pessoalgeral div.item h5.nome_full
+{
+	display: block;
+	width: 330px;
+}
+
+#pagina div.pessoalgeral div.item .ocupacao
+{
+	display: block;
+	width: 330px;
+}
+
+#pagina div.pessoalgeral div.item .divisao
+{
+	display: block;
+	width: 330px;
+}
+
+#pagina div.pessoalgeral div.item .telefone
+{
+	display: block;
+	width: 330px;
+}
+
+#pagina div.pessoalgeral div.item .email
+{
+	display: block;
+	width: 330px;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+label
+{
+	float: left;
+	margin: 0 2px 0 0;
+	border: none;
+}
+
+#conteudo_principal fieldset, #conteudo_principal div
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#conteudo_principal div.fieldset-wrapper
+{
+	margin: 0 0 0 15px;
+}
+
+#conteudo_principal fieldset legend span
+{
+	font: bold 16px "Nimbus Sans Nov T OT Regular", Arial;
+	color: #133979;
+	display: block;
+	margin: 20px 0 10px 0;
+}
+
+#conteudo_principal fieldset label, #conteudo_principal div label 
+{
+	font: bold 14px "Nimbus Sans Nov T OT Regular", Arial;
+	color: #932424;
+	display: block;
+	margin: 0;
+}
+
+#conteudo_principal div.form-item
+{
+	margin: 0 0 5px 0;
+}
+
+#conteudo_principal div.form-item input, #conteudo_principal div.form-item select, #conteudo_principal div.form-item textarea
+{
+	display: block;
+	clear: both;
+	margin: 0;
+}
+
+#field-data-de-nascimento-add-more-wrapper fieldset legend span, fieldset#edit-picture legend span
+{
+	font: bold 14px "Nimbus Sans Nov T OT Regular", Arial;
+	color: #932424;
+	display: block;
+	clear: both;
+	margin: 0;
+}
+
+#field-data-de-nascimento-add-more-wrapper fieldset, #edit-picture
+{
+	border: none;
+	clear: both;
+}
+
+#field-data-de-nascimento-add-more-wrapper div.form-item label
+{
+	display: none;
+}
+
+#field-data-de-nascimento-add-more-wrapper div.fieldset-wrapper, #edit-picture div.fieldset-wrapper
+{
+	margin: 0;
+}
+
+#edit-picture div.user-picture, #edit-picture div.user-picture img
+{
+	float: left;
+	width: 60px;
+	height: 80px;
+	border: 1px solid #CCCCCC;
+	margin: 0 10px 10px 0;
+}
+
+#edit-picture div.form-item
+{
+	float: left;
+}
+
+#pagina div.profile
+{
+	padding: 10px;
+	background: #FFF;
+	box-shadow: inset 0 0 0 1px #CCC;
+	clear: both;
+  margin: 0 0 20px 0;
+	position: relative;
+  display: table;
+  width: 960px;
+}
+
+#pagina .profile .field
+{
+  float: none;
+  width: 800px;
+  padding: 4px 0;
+  border: none;
+}
+
+#pagina .contact-form #edit-to
+{
+  display: none;
+}
+
+#pagina .profile .field-name-field-foto
+{
+	float: right;
+	width: 120px;
+	height: 160px;
+	margin: 15px 15px 0 0 0;
+}
+
+#pagina .profile .field-name-field-nome-completo .field-item
+{
+  font: bold 18px "Nimbus Sans Nov T OT Medium", Arial;
+	text-decoration: none;
+	color: #143979;
+	margin: 0;
+	padding: 0;
+}
+
+#pagina .profile .field-name-field-divis-o .field-item
+{
+	color: #932D2D;
+	font: normal 16px "Nimbus Sans Nov T OT Medium", Georgia;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}

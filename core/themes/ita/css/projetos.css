@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.node-projeto a
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+.group_proj_dept a
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+div.group_proj_dept
+{
+	margin: 0;
+	height: 20px;
+}
+
+.group_proj_dept div
+{
+	float: left;
+	margin: 0 10px 0 0;
+	height: 20px;
+}
+
+.node-projeto h2
+{
+	margin: 20px 0 5px 0;
+}
+
+.node-projeto h2 a
+{
+	color: #932424;
+	font-size: 16px;
+	margin: 0;
+}
+
+.node-projeto .group_proj_docs div
+{
+	clear: both;
+}
+
+.group-projeto span
+{
+	font-weight: bold;
+}
+
+#pagina div.projetos div.item 
+{
+	width: 710px;
+	height: 160px;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	float: left;
+	margin: 0 0 20px 0;
+	background: #FFF;
+	padding: 10px;
+}
+
+#pagina div.projetos div.item  h4
+{
+	margin: 0 0 10px 0;
+}
+
+#pagina div.projetos div.item div.row
+{
+	clear: both;
+}
+
+
+#pagina div.projetos div.item span.label
+{
+	font: normal 14px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	color: #AD1412;
+	float: left;
+	margin: 3px 5px 0 0;
+	padding: 0;
+}
+
+#pagina div.projetosgeral div.item 
+{
+	width: 454px;
+	height: 160px;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	float: left;
+	margin: 10px 0 0 10px;
+}

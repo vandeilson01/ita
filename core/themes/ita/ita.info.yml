@@ -1,0 +1,20 @@
+name: ita
+description: template base para todas as paginas do site do ITA
+screenshot: screenshot.jpg
+version: 1.0
+core: 10.x
+engine: phptemplate
+
+libraries:
+  - ita/sl-css-js
+
+regions:
+  header: Cabecalho
+  menu: Menu principal
+  sec_menu: Menu secundario
+  notice: Noticias
+  news_divisoes: Noticias das divisoes
+  main_content: Conteudo principal
+  aux_content: Conteudo auxiliar
+  footer: Rodape
+  social: Redes sociais

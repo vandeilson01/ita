@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+#conteudo_auxiliar ul.menu
+{
+	display: block;
+	width: 215px;
+	border: 1px solid #CCC;
+	margin: -1px 0 0 1px;
+	padding: 10px 5px;
+	background: #FFF;
+}
+
+#conteudo_auxiliar ul.menu ul.menu
+{
+	width: auto;
+	border: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#conteudo_auxiliar ul.menu li
+{
+	list-style: none;
+}
+
+#conteudo_auxiliar ul.menu li a
+{
+	text-decoration: none;
+	color: #415F92;
+	font: bold 16px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	letter-spacing: 0.5px;
+}
+
+#conteudo_auxiliar ul.menu li li a
+{
+	text-decoration: none;
+	color: #722323;
+	font: normal 15px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	letter-spacing: 0.5px;
+}
+
+#conteudo_auxiliar ul.menu li li li a
+{
+	text-decoration: none;
+	font: normal 15px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	letter-spacing: 0.5px;
+}

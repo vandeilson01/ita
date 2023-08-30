@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+#first-time
+{
+	display: none;
+	opacity: 0;
+}
+
+#toolbar, .toolbar-menu
+{
+  display: none;
+  opacity: 0;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+html
+{
+	overflow: scroll;
+	background: #FFF;
+	clear: both;
+}
+
+a
+{
+	text-decoration: none;
+	color: #3F5F92;
+}
+
+span
+{
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+}
+
+
+p, div
+{
+	color: #333333;
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+	text-align: justify;
+}
+
+em
+{
+	font: bold 14px Arial;
+	color: #932424;
+}
+
+h1, h1 a
+{
+	color: #133979;
+	font: normal 24px "Droid Serif", Georgia;
+	margin: 0;
+	padding: 0;
+}
+
+h2, h2 a
+{
+	color: #932D2D;
+	font: normal 20px "Droid Serif", Georgia;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+h3, h3 a
+{
+	color: #932D2D;
+	font: normal 18px "Droid Serif", Georgia;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+h4, h4 a
+{
+	font: bold 16px "Nimbus Sans Nov T OT Medium", Arial;
+	text-decoration: none;
+	color: #143979;
+	margin: 0;
+	padding: 0;
+}
+
+h5, h5 a
+{
+	font: bold 14px Arial;
+	text-decoration: none;
+	color: #143979;
+	margin: 0;
+	padding: 0;
+}
+
+li
+{
+	color: #333333;
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	list-style: inside url(../images/list_li.png);
+}
+
+li li
+{
+	list-style: inside url(../images/list_li_li.png);
+}
+
+li li li
+{
+	list-style: inside url(../images/list_li_li_li.png);
+}
+
+label
+{
+	float: left;
+	margin: 0 2px 0 0;
+	border: none;
+}
+
+table caption
+{
+  color: #FFFFFF;
+  background: #233443;
+	font: bold 16px "Nimbus Sans Nov T OT Medium", Arial;
+  padding: 5px 0;
+}
+
+tbody
+{
+  border: 1px solid #CCC;
+}
+
+p.clear
+{
+	display: block;
+	clear: both;
+}
+
+div#clear, div.clear
+{
+	clear: both;
+	width: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#titulopag
+{
+	position: relative;
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#titulopag h1
+{
+	display: block;
+	clear: both;
+	position: relative;
+	float: left;
+	padding: 13px 22px;
+	margin: 20px 0 0 25px;
+	background: #932D2D;
+	border: none;
+	border-bottom: 3px solid #722323;
+	color: #FFF;
+	font-size: 22px;
+}
+
+#conteudo_bg
+{
+	width: 100%;
+	height: auto;
+	background-color: #EDEDED;
+	box-shadow: inset 0 2px 5px 0 #888;
+}
+
+#conteudo_bgmenu
+{
+	width: 100%;
+	height: auto;
+	box-shadow: inset 0 2px 5px 0 #888;
+	background: url(../images/conteudo_bg.png) repeat-y center;
+}
+
+#wrapper_conteudo
+{
+	width: 980px;
+	clear: both;
+	padding: 20px 0;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#pagina
+{
+	width: auto;
+	clear: both;
+	margin: 15px 0 0 0;
+	padding: 0;
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	color: #333333;
+}
+
+#pagina div.generica
+{
+	padding: 10px;
+	background: #FFF;
+	box-shadow: inset 0 0 0 1px #CCC;
+	clear: both;
+  margin: 0 0 20px 0;
+	position: relative;
+}
+
+#conteudo_principal
+{
+	width: auto;
+	overflow: hidden;
+}
+
+#conteudo_principal div.block
+{
+	clear: both;
+}
+
+#conteudo_principal .conteudo_branco
+{
+	padding: 10px;
+	background: #FFF;
+	box-shadow: inset 0 0 0 1px #CCC;
+	clear: both;
+}
+
+#conteudo_auxiliar
+{
+	margin: 0 0 15px 10px;
+	float: right;
+	padding: 0;
+	width: 230px;
+}
+
+h1
+{
+	margin: 5px 0;
+}
+
+p
+{
+	margin: 7px 0 7px 0;
+}
+
+/* img
+{
+	float: left;
+	margin: 0 15px 15px 0;
+} */

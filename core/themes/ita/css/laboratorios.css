@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+#pagina div.labgeral
+{
+	width: 955px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#pagina .laboratorios div
+{
+	float: left;
+}
+
+#pagina .laboratorios .item
+{
+	clear: both;
+	height: auto;
+	width: 730px;
+	height: 180px;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	margin: 0 0 20px 0;
+	background: #FFF;
+}
+
+
+#pagina .laboratorios h3.nome_laboratorio
+{
+	display: block;
+	float: left;
+	margin: 10px 15px 5px 0;
+	color: #133979;
+	width: 520px;
+	height: 21px;
+	overflow: hidden;
+}
+
+#pagina .laboratorios h3.nome_laboratorio a
+{
+	color: #133979;
+}
+
+#pagina .laboratorios img
+{
+	clear: both;
+	float: left;
+}
+
+#pagina .laboratorios span.dept_do_lab
+{
+	display: block;
+	height: 20px;
+	float: left;
+	margin: 0;
+	font: normal 14px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	color: #AE1512;
+	letter-spacing: 0.5px;
+}
+
+#pagina .laboratorios p.dept_do_lab
+{
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	color: #333333;
+}
+
+#pagina .laboratorios p.dept_do_lab
+{
+	display: block;
+	height: 20px;
+	float: left;
+	margin: 0 0 0 10px;
+	width: 370px;
+}
+
+#pagina .laboratorios div.sobre_laboratorio
+{
+	display: block;
+	width: 520px;
+	height: 110px;
+	float: left;
+	margin: 5px 0 15px 0;
+	overflow: hidden;
+}
+
+#pagina .laboratorios div.sobre_laboratorio p
+{
+	margin: 0;
+}
+
+#pagina .labgeral .item
+{
+	clear: both;
+	height: auto;
+	width: 955px;
+	height: 180px;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	margin: 0 0 20px 0;
+}
+
+#pagina .labgeral h3.nome_laboratorio
+{
+	display: block;
+	float: left;
+	margin: 10px 15px 5px 0;
+	color: #133979;
+	width: 730px;
+	height: 21px;
+	overflow: hidden;
+}
+
+#pagina .labgeral div.sobre_laboratorio
+{
+	display: block;
+	width: 730px;
+	height: 110px;
+	float: left;
+	margin: 5px 0 15px 0;
+	overflow: hidden;
+}
+
+#pagina .labgeral div.sobre_laboratorio p
+{
+	margin: 0;
+}
+
+
+.node-laboratorio div.group_lab_dept
+{
+	margin: 5px 0;
+	height: 20px;
+}
+
+.node-laboratorio .group_lab_dept div
+{
+	float: left;
+	margin: 0 10px 0 0;
+	height: 20px;
+}
+
+.node-laboratorio h2 a
+{
+	color: #932D2D;
+}
+
+.node-laboratorio .group_lab_dept a
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+.node-laboratorio .group_lab_content
+{
+	clear: both;
+}
+
+.node-laboratorio img
+{
+	clear: both;
+}
+
+.node-laboratorio .group_lab_resumo
+{
+	height: 130px;
+	margin: 0 0 15px 0;
+}
+
+.node-laboratorio ul.links
+{
+	display: block;
+	float: right;
+	margin: 0;
+}
+
+.group_lab_content div.lab
+{
+	float: left;
+	width: auto;
+}

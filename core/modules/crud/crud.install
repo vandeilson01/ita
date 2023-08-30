@@ -1,0 +1,111 @@
+<?php
+
+/**
+ * @file
+ *
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function crud_schema()
+{
+    $schema['crud_table'] = [
+        'fields' => [
+            'id' => [
+                'type' => 'serial',
+                'unsigned' => TRUE,
+                'not null' => TRUE,
+            ],
+            'name' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'sexo' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'ano_entrada' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'ano_formatura' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'especialidade_qual' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'especialidade' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'civil_militar' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'apelido' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'numero_matricula' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '', 
+            ],
+            'ano_nascimento' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'cpf' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'posto_formatura' => [
+               'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'nome_mae' => [
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+            'telefone_celular' => [
+                 'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ],
+        ],
+        'primary key' => [
+            'id',
+        ],
+    ];
+
+    return $schema;
+}

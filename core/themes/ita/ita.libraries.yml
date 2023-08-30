@@ -1,0 +1,20 @@
+sl-css-js:
+  css:
+    theme:
+      css/style.css: {}
+      css/eventos.css: {}
+      css/laboratorios.css: {}
+      css/noticias.css: {}
+      css/search.css: {}
+      css/projetos.css: {}
+      css/pages.css: {}
+      css/destaque.css: {}
+      css/user.css: {}
+      css/menu.css: {}
+      css/acesso.css: {}
+      css/ocw.css: {}
+      css/calendario.css: {}
+
+  js:
+    theme:
+      scripts/views_slideshow.js: {}

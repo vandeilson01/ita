@@ -1,0 +1,229 @@
+/*Busca*/
+
+#search-block-form
+{
+	position: relative;
+	display: block;
+	float: right;
+	margin: 0 -10px 0 0;
+	padding: 0 25px 0 0;
+	height: 38px;
+	background: url(../images/sombra_dir.png) right no-repeat;
+}
+
+#search-block-form div
+{
+	float: left;
+	margin: 0;
+}
+
+#cabecalho div.form-item
+{
+	clear:both;
+	margin: 0;
+	padding: 0px;
+	border: none;
+}
+
+#cabecalho div.form-actions
+{
+	margin: 0px;
+}
+
+#cabecalho input.form-text
+{
+	background: url(../images/busca_bg.png) repeat-x;
+	width: 230px;
+	height: 36px;
+	margin: 0px;
+	padding: 0 10px 0 10px;
+	border: none;
+	float: left;
+	font: italic 12px Droid serif, Georgia;
+	color: #AEB7BE;
+}
+
+#cabecalho input.form-submit
+{
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	border: none;
+	background: url(../images/busca_botao.png) no-repeat;
+	float: left;
+}
+
+#pagina ol.search-results
+{
+	padding: 10px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	margin: 0;
+	clear: both;
+}
+
+#pagina li.search-result
+{
+	display: block;
+	list-style: none;
+	margin: 10px 0 30px 0;
+}
+
+#pagina .search-form
+{
+	clear: both;
+  height: auto;
+	background: #FFF1BF;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #CCC;
+	width: 100%;
+}
+
+#pagina .search-form div.container-inline
+{
+	width: 385px;
+	height: 35px;
+	float: right;
+	padding: 0;
+	margin: 7px;
+	border-top: 1px solid #D8BF95;
+	border-bottom: 1px solid #FEF8EE;
+	border-left: 1px solid #FEE0AF;
+  position: relative;
+  z-index: 3;
+}
+
+#pagina .search-form div.container-inline .form-item 
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#pagina .search-form div.container-inline .form-item label
+{
+	display: none;
+}
+
+#pagina .search-form div.container-inline .form-item input
+{
+	height: 35px;
+	padding: 0;
+	margin: 0;
+	width: 330px;
+	padding: 0 10px;
+	clear: both;
+	border: none;
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	background: url(../images/busca_input_bg.png) repeat;
+}
+
+#pagina .search-form div.container-inline .form-submit
+{
+	background: url(../images/busca_botao_pag.png) no-repeat;
+	float: left;
+	text-indent: -99999px;
+	height: 34px;
+	width: 34px;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#edit-advanced
+{
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+#edit-advanced span.fieldset-legend
+{
+  display: block;
+  width: auto;
+  height: auto;
+  padding-right: 20px;
+  background: url(../images/menu_retraido_lean.png) no-repeat right;
+}
+
+#edit-advanced div
+{
+  float: left;
+}
+
+#edit-advanced div.criterion
+{
+  position: relative;
+  width: auto;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+#edit-advanced div.criterion div.form-item label
+{
+	font: normal 14px "Nimbus Sans Nov T OT Semi Bold", Arial;
+  color: #333;
+}
+
+#edit-advanced div.criterion div.form-item input[type=text]
+{
+  width: 251px;
+}
+
+#edit-advanced div.criterion div.form-item input[type=checkbox]
+{
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+#edit-advanced div.criterion div.form-item input[type=checkbox]
+{
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 1px 6px 0 0;
+}
+
+#edit-advanced div.criterion div.form-item label.option
+{
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+#edit-advanced div.criterion div.form-type-checkbox
+{
+  float: left;
+  width: 218px;
+  height: 18px;
+  margin: 0;
+  padding: 5px 20px 5px 0;
+  overflow: hidden;
+}
+
+#edit-advanced  div.criterion div.form-item-or, #edit-advanced div.criterion div.form-item-phrase, #edit-advanced  div.criterion div.form-item-negative
+{
+  width: auto;
+  height: 60px;
+  margin: 0 50px 0 0;
+  float: left;
+}
+
+#edit-advanced div.form-item-language
+{
+  display: none;
+  opacity: 0;
+}
+
+#edit-advanced div.action
+{
+  clear: both;
+  margin: 5px;
+  float: right;
+}

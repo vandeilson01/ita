@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+/*RESERVADOS*/
+
+.destaque div.item
+{
+	padding: 0;
+	width: 225px;
+	height: 85px;
+	margin: 0 auto;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+
+.destaque div.last
+{
+	margin-bottom: 30px;
+}
+
+.destaque img
+{
+	margin: 5px 0 0 5px;
+}
+
+.destaque h3.destaque_link
+{
+	margin: 0;
+	text-indent: -99999px;
+	background: red;
+}
+
+.destaque h3.destaque_link a
+{
+	display: block;
+	position: absolute;
+	margin: 5px 0 0 5px;
+	height: 75px;
+	width: 215px;
+	text-indent: -99999px;
+	z-index: 2;
+	overflow: hidden:
+}

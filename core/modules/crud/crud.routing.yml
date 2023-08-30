@@ -1,0 +1,31 @@
+crud.display_data:
+  path: /pesquisa/todas
+  defaults:
+    _controller: Drupal\crud\Controller\CRUDController::index
+    _title: "Todas as Pesquisas"
+  requirements:
+    _permission: "access content"
+
+crud.show_data:
+  path: /pesquisa/{id}/ver
+  defaults:
+    _controller: Drupal\crud\Controller\CRUDController::show
+    _title: "Ver Pesquisa"
+  requirements:
+    _permission: "access content"
+
+crud.add_form:
+  path: /pesquisa/nova
+  defaults:
+    _form: Drupal\crud\Form\AddForm
+    _title: "Pesquisa"
+  requirements:
+    _access: "TRUE"
+
+crud.delete_form:
+  path: /pesquisa/{id}/deletar
+  defaults:
+    _form: Drupal\crud\Form\DeleteForm
+    _title: "Deletar Pesquisa"
+  requirements:
+    _access: "TRUE"

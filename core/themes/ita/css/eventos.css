@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+/*RESERVADOS*/
+
+#conteudo_auxiliar h2
+{
+	display: block;
+	width: 225px;
+	height: 37px;
+	color: #FFF;
+	background: url(../images/aux_content_title.png) repeat-x;
+	border: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #1E1111;
+	border-right: 1px solid #1E1111;
+	text-align: center;
+	margin: 10px auto;
+	margin-top: 0;
+	margin-bottom: 0px;
+	padding: 15px 0 0 0;
+}
+
+
+.cal-eventos div.item
+{
+	padding: 10px 0 0 10px;
+	width: 215px;
+	margin: 0 auto;
+	height: 85px;
+	margin-top: -7px;
+	background: url(../images/evento_item.png) no-repeat center;
+	border: none;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+.cal-eventos div.first
+{
+	margin-top: 0;
+	background: url(../images/evento_item_first.png) no-repeat center;
+}
+
+.cal-eventos div.item-3
+{
+	background: url(../images/evento_item_3.png) no-repeat center;
+}
+
+.cal-eventos div.last
+{
+	background: url(../images/evento_item_last.png) no-repeat center;
+}
+
+
+.cal-eventos div.item-3 div.data_evento, .cal-eventos div.last div.data_evento
+{
+	background: #254258;
+}
+
+.cal-eventos div.more-link
+{
+	height: 10px;
+	width: 227px;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	padding: 0 0 8px 0;
+	border: 1px solid #CCCCCC;
+	background: #254258;
+	text-shadow: 0 1px 1px #000;
+}
+
+.cal-eventos div.more-link a
+{
+	color: #FFF;
+}
+
+.cal-eventos div.item-3 h5.titulo_evento, 
+.cal-eventos div.item-3 h5.titulo_evento a, 
+.cal-eventos div.last h5.titulo_evento, 
+.cal-eventos div.last h5.titulo_evento a, 
+.cal-eventos div.item-3 h5.sigla_evento, 
+.cal-eventos div.last h5.sigla_evento
+{
+	color: #333333;
+}
+
+.cal-eventos div.data_evento
+{
+	margin: 0 0 0 5px;
+	width: 45px;
+	background: #932424;
+	padding: 3px 7px 3px 5px;
+	color: #FFF;
+	font: normal 12px "Nimbus Sans Nov T OT Medium", Arial;
+	text-shadow: 0 1px 1px #000;
+	letter-spacing: 0.5px;
+}
+
+h5.sigla_evento
+{
+	clear: both;
+	display: block;
+	float: left;
+	margin: 5px 3px 0 4px;
+	color: #143979;
+	font: normal 14px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	letter-spacing: 0.5px;
+}
+
+h5.titulo_evento, h5.titulo_evento a
+{
+	display: block;
+	width: 195px;
+	margin: 5px 0 0 3px;
+	font: normal 13px "Nimbus Sans Nov T OT Medium", Arial;
+	line-height: 17px;
+	color: #143979;
+}
+
+span.titulo_label_evento
+{
+	float: left;
+	margin: 3px 5px;
+}
+
+span.date-display-start, span.date-display-end, span.date-display-single
+{
+	color: #FFF;
+	font: normal 12px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	text-shadow: 0 1px 1px #000;
+	letter-spacing: 0.5px;
+}
+
+#pagina .eventos div.item
+{
+	clear: both;
+	width: 955px;
+	height: 180px;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	margin: 0 0 20px 0;
+	background: #FFF;
+}
+
+#pagina .eventos div.item div, #pagina .eventos div.item span
+{
+	clear: none;
+}
+
+#pagina .eventos div.evento_img
+{
+	float: left;
+}
+
+#pagina .eventos h3.evento_titulo
+{
+	display: inline;
+	float: left;
+	margin: 10px 15px 5px 0;
+	color: #133979;
+	width: 615px;
+	height: 21px;
+	overflow: hidden;
+}
+
+
+#pagina .eventos  div.data_evento
+{
+	display: inline;
+	float: left;
+	width: 130px;
+	padding: 4px 0;
+	text-align: center;
+	margin: 0;
+	background: #254258;
+	color: #FFF;
+	font: normal 12px "Nimbus Sans Nov T OT Semi bold", Arial;
+	text-shadow: 0 1px 1px #000;
+}
+
+#pagina div.data_pag_do_evento
+{
+	display: block;
+	float: right;
+	width: auto;
+	padding: 4px 7px;
+	text-align: center;
+	margin: 0;
+	background: #254258;
+	color: #FFF;
+	font: normal 14px "Nimbus Sans Nov T OT Semi bold", Arial;
+	text-shadow: 0 1px 1px #000;
+  margin: -10px -10px 5px 5px;
+}
+
+
+#pagina div.data_pag_do_evento div, #pagina div.data_pag_do_evento div span
+{
+	color: #FFF;
+	font: normal 14px "Nimbus Sans Nov T OT Semi bold", Arial;
+	text-shadow: 0 1px 1px #000;
+  letter-spacing: 0.5px;
+}
+
+#pagina .eventos .descricao_evento
+{
+	display: block;
+	width: 730px;
+	height: 110px;
+	float: left;
+	margin: 5px 0 15px 0;
+	overflow: hidden;
+}
+
+

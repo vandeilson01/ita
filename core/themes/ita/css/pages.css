@@ -1,0 +1,964 @@
+#missaovisaovalores td
+{
+	width: 320px;
+}
+
+#missaovisaovalores h2
+{
+	margin-top: 10px;
+}
+
+#missaovisaovalores ul  /* contornando problema com CKEditor */
+{
+	margin: 0 !important;
+	padding: 0 !important; 
+}
+
+#infogerais .text
+{
+	width: 645px;
+	float: left;
+	margin: 0 30px 0 0;
+	padding: 0;
+}
+
+#infogerais .numeros
+{
+	padding: 15px 20px;
+	width: 240px;
+	float: left;
+	margin: 0;
+	border: none;
+	border-top: 3px solid #932D2D;
+	border-bottom: 1px solid #CCCCCC;
+	background: #FFF;
+}
+
+#infogerais .numeros h4
+{
+	margin: 8px 0 0 0;
+}
+
+#infogerais .numeros h2
+{
+	margin: 0 0 10px 0;
+	color: #133979;
+}
+
+#infogerais .text ul
+{
+	padding: 0 0 0 5px;
+	margin: 5px 0 10px 5px;
+	font-weight: bold;
+}
+
+#infogerais .text li
+{
+	font-weight: normal;
+}
+
+#infogerais .text div.pos
+{
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+#contatos div.coluna
+{
+	width: 310px;
+	float: left;
+	display: block;
+}
+
+#contatos span.file, #contatos span.label
+{
+	display: block;
+	clear: both;
+}
+
+#contatos .botaoform
+{
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: #FFF1BF;
+  text-align: center;
+  clear: both;
+}
+
+#contatos .botaoform a
+{
+  display: block;
+  width: 100%;
+  height: 20px;
+  padding: 10px 0 0 0;
+  background: #FFF1BF;
+  text-align: center;
+  clear: both;
+}
+
+	#contatos .contatos_individuais h3 {
+		margin-bottom: 15px !important;
+	}
+	
+	#contatos .contatos_individuais a {
+		background-color: #324964;
+		color: white;
+		padding: 10px;
+		display: block;
+		width: 202px;
+		text-align: center;
+		margin-bottom: 16px;
+	}
+
+	#contatos .contatos_por_setor h3 {
+		margin-bottom: 20px !important;
+	}
+
+#exreitores div.item
+{
+	border: 1px solid #CCC;
+	border-top: 3px solid #932D2D;
+	float: left;
+	width: 120px;
+	height: 230px;
+	margin: 0 15px 15px 0;
+	padding: 0;
+	text-align: center;
+}
+
+#exreitores div.item img
+{
+	width: 120px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+}
+
+#exreitores div.item div
+{
+	width: 120px;
+	height: 40px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: center;
+	clear: both;
+}
+
+#exreitores div.item div p
+{
+	text-align: center;
+}
+
+#exreitores div.item h4
+{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+#exreitores div.item p
+{
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+#proreitorias div.item
+{
+	width: 235px;
+	height: 50px;
+	background: #2C4F69;
+	text-align: center;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+
+#proreitorias div.item a
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-decoration: none;
+	font: normal 16px "Droid Serif", Georgia;
+}
+
+#posgraduacao div.eam, #posgraduacao div.eec, #posgraduacao div.fis, #posgraduacao div.eia, #posgraduacao div.cte
+{
+	width: 96px;
+	height: 198px;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+#posgraduacao div.eam a, #posgraduacao div.eec a, #posgraduacao div.fis a, #posgraduacao div.eia a, #posgraduacao div.cte a
+{
+	display: block;
+	width: 96px;
+	height: 40px;
+	color: #FFF;
+	padding-top: 150px;
+	margin: 0;
+	line-height: 100%;
+}
+
+#posgraduacao div.eam
+{
+	background: url(../images/eam.png) no-repeat;
+}
+
+#posgraduacao div.eec
+{
+	background: url(../images/eec.png) no-repeat;
+}
+
+#posgraduacao div.fis
+{
+	background: url(../images/fis.png) no-repeat;
+}
+
+#posgraduacao div.eia
+{
+	background: url(../images/eia.png) no-repeat;
+}
+
+#posgraduacao div.cte
+{
+	background: url(../images/cte.png) no-repeat;
+}
+
+
+#posgraduacao div.normas
+{
+	width: 120px;
+  padding-left: 100px;
+	height: 198px;
+	margin: 0 10px 0 0;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #CCC;
+  background: url("../images/estantepos.png") left top no-repeat;
+}
+
+#posgraduacao div.normas .item
+{
+	width: 100%;
+	height: 39px;
+	margin: 5px 0 0 0;
+	padding: 5px 0 0 0;
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+
+#posgraduacao div.normas .item a
+{
+	display: block;
+	position: relative;
+	text-align: center;
+	font: bold 16px "Nimbus Sans Nov T OT Medium", Arial;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	
+	color: #143979;
+}
+
+#posgraduacao div.programas
+{
+	width: 480px;
+	height: 198px;
+	margin: 0;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	border-top: none;
+}
+
+
+#posgraduacao div.normas h3.title, #posgraduacao div.programas h3.title
+{
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	height: 20px;
+	color: #FFF;
+	border: none;
+	margin: 10px auto;
+	margin-top: 0;
+	margin-bottom: 0px;
+	padding: 12px 0;
+	text-indent: 15px;
+	color: #FFF;
+	background: #AF1612;
+	border-bottom: 3px solid #89110E;
+}
+
+
+#conteudo_principal #lista_menu
+{
+	clear: both;
+	width: 714px;
+	margin: 15px 0;
+	overflow: hidden;
+	border: none;
+  border-bottom: 2px solid #CCCCCC;
+}
+
+#lista_menu .title
+{
+	clear: both;
+	width: 686px;
+	overflow: hidden;
+	display: block;
+	height: 20px;
+	color: #133979;
+	background: none;
+	border: none;
+	border-bottom: 3px solid #89110E;
+	margin: 10px auto;
+	margin-top: 0;
+	margin-bottom: 0px;
+	padding: 15px;
+}
+
+
+#lista_menu div.item
+{
+	width: 325px;
+	height: 100px;
+	border: none;
+	overflow: hidden;
+	border-bottom: 1px solid #D5D5D5;
+	float: left;
+	margin: 20px 0 0 19px;
+	padding: 0 0 10px 0;
+}
+
+#lista_menu div.item a
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+
+#lista_menu div.item a img
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#lista_menu div.item h5
+{
+	display: block;
+  color: #932D2D;
+	width: 205px;
+	float: left;
+	height: 30px;
+	padding: 10px 5px 0 0;
+}
+
+#lista_menu div.item span
+{
+	display: block;
+	width: 205px;
+	height: 45px;
+	float: left;
+	overflow: hidden;
+	margin: 8px 0 5px 0;
+}
+
+
+
+
+
+#divisoes div.ief, #divisoes div.aer, #divisoes div.ele, #divisoes div.mec, #divisoes div.civil, #divisoes div.comp
+{
+	width: 118px;
+	height: 198px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#divisoes div.ief a, #divisoes div.aer a, #divisoes div.ele a, #divisoes div.mec a, #divisoes div.civil a, #divisoes div.comp a
+{
+	display: block;
+	width: 118px;
+	height: 40px;
+	color: #FFF;
+	padding-top: 150px;
+	margin: 0;
+	line-height: 100%;
+}
+
+
+#cursos div.ief, #cursos div.aer, #cursos div.ele, #cursos div.mec, #cursos div.civil, #cursos div.comp, #cursos div.aesp
+{
+	width: 101px;
+	height: 198px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#cursos div.ief a, #cursos div.aer a, #cursos div.ele a, #cursos div.mec a, #cursos div.civil a, #cursos div.comp a, #cursos div.aesp a
+{
+	display: block;
+	width: 91px;
+	height: 40px;
+	color: #FFF;
+	padding: 150px 5px 0 5px;
+	margin: 0;
+	line-height: 100%;
+}
+
+#divisoes div.ief, #cursos div.ief
+{
+  margin-left: 4px;
+	background: url(../images/ief.png) no-repeat;
+}
+
+#divisoes div.aer, #cursos div.aer
+{
+	background: url(../images/aer.png) no-repeat;
+}
+
+#divisoes div.ele, #cursos div.ele
+{
+	background: url(../images/ele.png) no-repeat;
+}
+
+#divisoes div.mec, #cursos div.mec
+{
+	background: url(../images/mec.png) no-repeat;
+}
+
+#divisoes div.civil, #cursos div.civil
+{
+	background: url(../images/civil.png) no-repeat;
+}
+
+#divisoes div.comp, #cursos div.comp
+{
+	background: url(../images/comp.png) no-repeat;
+}
+
+#cursos div.aesp
+{
+	background: url(../images/aesp.png) no-repeat;
+}
+
+table.contatospos
+{
+	width: 950px;
+}
+
+table.contatospos tr.title
+{
+	font-weight: bold;
+}
+
+#conteudo_principal div#lista div.item
+{
+	clear: both;
+	position: relative;
+	height: auto;
+	padding: 0 0 5px 0;
+	margin: 0 0 15px 0;
+	border: none;
+	border-top: 3px solid #932D2D;
+	border-bottom: 1px solid #CCCCCC;
+	background: #FFF;
+	overflow: hidden;
+}
+
+#conteudo_principal div#lista div.item img
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+
+#conteudo_principal div#lista div.item h3
+{
+	margin: 10px 0 0 0;
+}
+
+#conteudo_principal div.titulo_expansivel .field-item 
+{
+	position: relative;
+	font: bold 14px Arial;
+	color: #333333;
+	margin: 0 0 -41px 0;
+  border-left: 3px solid #932D2D;
+	padding: 0;
+	z-index: 5;
+	width: 85%;
+  height: 28px;
+	padding: 12px 0 0 10px;
+}
+
+#conteudo_principal fieldset.grupo_expansivel
+{
+	margin: 0 0 15px 0;
+	position: relative;
+	z-index: 4;
+	border: none;
+	border: 1px solid #CCCCCC;
+	border-bottom: 3px solid #E5E5E5;
+	width: 100%;
+  background: #DBDBDB;
+}
+
+#conteudo_principal fieldset.grupo_expansivel div.fieldset-wrapper
+{
+	margin: 40px 0 0 -1px;
+	padding: 0 15px 10px 15px;
+  border-left: 3px solid #999999;
+}
+
+#conteudo_principal fieldset.grupo_expansivel.collapsed
+{
+	height: 40px;
+}
+
+#conteudo_principal fieldset.grupo_expansivel legend
+{
+	margin: 0;
+	width: 25px;
+	height: 25px;
+	float: right;
+	padding: 0;
+}
+
+#conteudo_principal fieldset.grupo_expansivel legend span.summary
+{
+	display: none;
+}
+
+#conteudo_principal fieldset.grupo_expansivel.collapsed legend span.fieldset-legend a.fieldset-title
+{
+  
+	background: url(../images/expandir.png) no-repeat;
+}
+
+#conteudo_principal fieldset.grupo_expansivel legend span.fieldset-legend a.fieldset-title
+{
+	width: 40px;
+	height: 40px;
+	margin: 2px 0;
+	float: right;
+	background: url(../images/retrair.png) no-repeat;
+	text-indent: -99999px;
+}
+
+#conteudo_principal fieldset.grupo_expansivel span.fieldset-legend
+{
+	margin: 0;
+}
+
+#pagina div.filtros
+{
+	clear: both;
+	height: 50px;
+	width: 100%;
+	background: #DBDBDB;
+	margin: 0 0 15px 0;
+	padding: 0;
+	border-bottom: 2px solid #CCC;
+	overflow: hidden;
+}
+
+#pagina div.filtros label
+{
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+	color: #333333;
+	margin: 17px 10px;
+}
+
+#pagina div.filtros div.widget
+{
+	border: none;
+	height: 49px;
+	padding: 0;
+	margin: 0 30px 0 0;
+	width: auto;
+	border-top: 3px solid #932D2D;
+	overflow: hidden;
+	float: left;
+	background: none;
+}
+
+#pagina div.filtros div.widget select.form-select
+{
+	font: normal 16px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	color: #133979;
+	border: none;
+	height: 47px;
+	padding: 13px 40px 14px 0;
+	width: auto;
+	margin-right: -15px;
+	float: left;
+	text-align: center;
+	-webkit-appearance: none;
+	background: url("../images/select_seta.png") no-repeat right;
+}
+
+#pagina div.filtros div.widget option
+{
+	border: none;
+	background: none;
+	padding-right: 40px;
+	text-align: center;
+}
+
+#pagina #vestibular
+{
+	margin: -10px;
+	background: #EDEDED;
+}
+
+#vestibular div.info h3
+{
+	width: 100%;
+	height: 20px;
+	padding: 12px;
+	color: #FFF;
+	background: #AF1612;
+	border-bottom: 3px solid #89110E;
+}
+
+#vestibular div.info p.textbox
+{
+	margin: 0 0 20px 0;
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-bottom: 2px solid #CCC;
+	line-height: 200%;
+}
+
+#vestibular div.info h2
+{
+	display: block;
+	width: 100%;
+	height: 20px;
+	color: #FFF;
+	background: url(../images/aux_content_title.png) repeat-x;
+	border: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #1E1111;
+	border-right: 1px solid #1E1111;
+	margin: 10px auto;
+	margin-top: 0;
+	margin-bottom: 0px;
+	padding: 15px;
+}
+
+#vestibular div.info div.calendario
+{
+	height: 190px;
+	width: 100%;
+	background: url(../images/calendario_provas.png) repeat-x;
+}
+
+#vestibular div.info div.calendario div
+{
+	height: 83px;
+	width: 184px;
+	float: left;
+	margin: 0;
+	padding: 7px 0 0 0;
+	text-align: center;
+	line-height: 100%;
+	color: #AF1612;
+	font: normal 16px "Nimbus Sans Nov T OT Semi Bold", Arial;
+}
+
+#vestibular div.info div.calendario div span
+{
+	display: block;
+	height: 15px;
+	margin: 7px 0 0 0;
+	padding: 0;
+	color: #333333;
+	font: normal 15px "Nimbus Sans Nov T OT Medium", Arial;
+}
+
+#organograma
+{
+	position: relative;
+	height: 410px;
+	width: 950px;
+	clear: both;
+}
+
+#reitoria div.reitor, #reitoria div.vice_reitor
+{
+	clear: both;
+	position: relative;
+	height: auto;
+	padding: 0 0 5px 0;
+	margin: 0 0 15px 0;
+	border: none;
+	border-top: 3px solid #932D2D;
+	border-bottom: 1px solid #CCCCCC;
+	background: #FFF;
+}
+
+
+#reitoria div.reitor img, #reitoria div.vice_reitor img
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+
+#reitoria div.reitor h3, #reitoria div.vice_reitor h3
+{
+	margin: 10px 0 0 0;
+}
+
+#conteudo_principal #reitoria label
+{
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+  margin: 3px 5px 0 0;
+}
+
+#conteudo_principal #reitoria div.vice_reitor label
+{
+	font: normal 14px "Nimbus Sans Nov T OT Medium", Arial;
+  margin: 0 5px 0 0;
+}
+
+#reitoria div.vice_reitor span
+{
+  float: left;
+  margin: 0 50px 0 5px;
+}
+
+#reitoria .item
+{
+  float: left;
+  width: 430px;
+  height: 90px;
+  margin: 15px 0 30px 15px;
+  padding: 10px;
+  border: none;
+	border-top: 3px solid #932D2D;
+	border-bottom: 1px solid #CCCCCC;
+	background: #FFF;
+}
+
+#reitoria .secretarias
+{
+  clear: both;
+  padding: 10px;
+  margin: 15px;
+  width: 895px;
+  border-top: 3px solid #932D2D;
+	border-bottom: 1px solid #CCCCCC;
+	background: #FFF;
+  height: auto;
+}
+
+#reitoria .secretarias .item
+{
+  float: left;
+  width: 410px;
+  border: none;
+  height: 70px;
+  margin: 0 0 0 15px;
+}
+
+#pagina .arquivos
+{
+	width: 100%;
+	height: auto;
+	background: #FFF1BF;
+	border: 1px solid #FADCAB;
+	clear: both;
+}
+
+#pagina .arquivos span.label
+{
+	display: block;
+	color: #333333;
+	font: normal 15px "Nimbus Sans Nov T OT Medium", Arial;
+	width: 60px;
+	height: 20px;
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 16px 0;
+}
+
+#pagina span.file
+{
+	background: #F9D18E;
+	display: block;
+	color: #133979;
+	font: normal 15px "Nimbus Sans Nov T OT Semi Bold", Arial;
+	height: 20px;
+	float: left;
+	margin: 12px 10px;
+	padding: 5px 15px 3px 15px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+}
+
+#pagina span.file img
+{
+	display: none;
+}
+
+#contact-site-form .grippie
+{
+  display: none;
+}
+
+#contact-site-form div.form-actions
+{
+  clear: both;
+  margin: 0 0 0 -5px;
+  padding: 20px 0 0 0;
+  height: 30px;
+  width: auto;
+}
+
+
+#lista_metade div.item
+{
+	width: 450px;
+	height: 100px;
+	border: 3px solid #AF1612;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AF1612;
+	border-bottom: 2px solid #D5D5D5;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+#lista_metade div.item img
+{
+  position: relative;
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+
+#lista_metade div.item h5
+{
+	display: block;
+	width: 320px;
+  float: left;
+  height: 20px;
+  padding: 5px 0 0 0;
+}
+
+#lista_metade div.item p
+{
+	display: block;
+	width: 320px;
+  height: 45px;
+  float: left;
+  overflow: hidden;
+  margin: 8px 0 0 0;
+}
+
+#lista_metade div.item span
+{
+	display: block;
+	width: 60px;
+  height: 16px;
+  padding: 3px 0 0 0;
+  float: left;
+}
+
+#lista_metade div.item a
+{
+  float: left;
+}
+
+#lista_metade div.item span.ext
+{
+	display: block;
+	width: 16px;
+  height: 16px;
+}
+
+#visao_futuro_table .col1 {
+	width: 37%
+}
+
+#visao_futuro_table .col2 {
+	width: 63%
+}
+
+#lista.administrativo .table-graduacao,
+#lista.administrativo .table_dcta,
+#lista.administrativo .table_dcta_facilidades {
+	width: 100%;
+	text-align:left;
+}
+
+#lista.administrativo .table-graduacao td,
+#lista.administrativo .table_dcta td {
+	width: 50%;
+}
+
+#lista.administrativo .table_dcta_facilidades td {
+	width: 33%;
+}
+
+.generica img.img_casd {
+	float: right !important;
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	width: 200px !important;
+}
+
+
+.inscricao_treinamento_drupal a {
+	background-color: #324964;
+	color: white;
+	padding: 10px;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin-bottom: 16px;
+	clear: both;
+}
+
+.node-type-book #conteudo_principal img {
+	float: none;
+	border: 1px solid #ddd;
+	max-width: 100%;
+}
